@@ -1,0 +1,350 @@
+h1{
+    color: white;
+    position: absolute;
+    left: 48%;
+    top: 20%;
+}
+body {
+  
+    background-color: black;
+}
+.sombra{
+    background-color: antiquewhite;
+    width: 100px;
+    height: 20px;
+    border-radius: 100%;
+    position: absolute;
+    top: 65%;
+    left: 45%;
+
+}
+.potato {
+    width: 100px;
+    height: 150px;
+    background-color: #c49a6c;
+    border-radius: 60% 70% 50% 40%;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 50%;
+    left: 45%;
+    border: 3px solid #81592e;
+}
+.eyebrows {
+    position: absolute;
+    top: 32%;
+    display: flex;
+    gap: 22px;
+    
+}
+.eyebrowle{
+    width: 10px;
+    height: 3px;
+    background-color: black;
+    transform: rotate(30deg);
+    animation: cejle 3s infinite;
+}
+@keyframes cejle{
+    0%, 90%{
+        transform: rotate(30deg);
+    }
+    95%{
+        transform: rotate(-30deg);
+    }
+    100%{
+        transform: rotate(30deg);
+    }
+}
+.eyebrowri{
+    width: 10px;
+    height: 3px;
+    background-color: black;
+    transform: rotate(-30deg);
+    animation: cejri 3s infinite;
+}
+@keyframes cejri{
+    0%, 90%{
+        transform: rotate(-30deg);
+    }
+    95%{
+        transform: rotate(30deg);
+    }
+    100%{
+        transform: rotate(-30deg);
+    }
+}
+.eyes {
+    position: absolute;
+    top: 35%;
+    display: flex;
+    gap: 35px;
+}
+
+.eye {
+    width: 10px;
+    height: 10px;
+    background-color: black;
+    border-radius: 50%;
+    animation: blink 1s infinite;
+}
+
+@keyframes blink{
+    0%, 90%{
+        transform: scaleY(1);
+    }
+    95%{
+        transform: scaleY(0.1);
+    }
+    100%{
+        transform: scaleY(1);
+    }
+}
+.mouth {
+    position: absolute;
+    top: 42%;
+    width: 15px;
+    height: 3px;
+    background-color: black;
+}
+
+.bandana {
+    position: absolute;
+    top: 20%;
+    width: 80px;
+    height: 10px;
+    border: solid 3px #000;
+    border-color: #000 transparent;
+    background-color: white;
+    border-radius: 50%/100px 100px;
+
+}
+
+.arms {
+    position: absolute;
+    top: 50%;
+    width: 140px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.arm {
+    width: 20px;
+    height: 5px;
+    background-color: white;
+    transform: rotate(20deg);
+    border: 3px solid #81592e;
+
+}
+
+
+.arm.right {
+    transform: rotate(-20deg);
+    border: 3px solid #81592e;
+    animation: alzar 3s infinite;
+    
+}
+@keyframes alzar{
+    0%,90%{
+        transform: rotate(-20deg);
+    }
+    95%{
+        transform: rotate(-50deg);
+    }
+    100%{
+        transform: rotate(-20deg);
+    }
+
+}
+.mancha1{
+    position: absolute;
+    top: 80%;
+    width: 20px;
+    height: 20px;
+    left: 10px;
+    background-color: #81592e;
+    border-radius: 30% 70%;
+}
+.mancha2{
+    position: absolute;
+    top: 70%;
+    width: 10px;
+    height: 10px;
+    left: 8px;
+    background-color: #81592e;
+    border-radius: 30% 70%;
+    transform: rotate(20deg);
+}
+
+
+
+
+.sombra1{
+    background-color: antiquewhite;
+    width: 80px;
+    height: 20px;
+    border-radius: 100%;
+    position: absolute;
+    top: 66%;
+    left: 55%;
+
+}
+.potato1 {
+    width: 80px;
+    height: 130px;
+    background-color: #c49a6c;
+    border-radius: 60% 70% 50% 40%;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 53%;
+    left: 55%;
+    border: 3px solid #81592e;
+}
+.eyebrows1 {
+    position: absolute;
+    top: 32%;
+    display: flex;
+    gap: 22px;
+    
+}
+.eyebrowle1{
+    width: 10px;
+    height: 3px;
+    background-color: black;
+    transform: rotate(30deg);
+    animation: cejle 3s infinite;
+}
+@keyframes cejle{
+    0%, 90%{
+        transform: rotate(30deg);
+    }
+    95%{
+        transform: rotate(-30deg);
+    }
+    100%{
+        transform: rotate(30deg);
+    }
+}
+.eyebrowri1{
+    width: 10px;
+    height: 3px;
+    background-color: black;
+    transform: rotate(-30deg);
+    animation: cejri 3s infinite;
+}
+@keyframes cejri{
+    0%, 90%{
+        transform: rotate(-30deg);
+    }
+    95%{
+        transform: rotate(30deg);
+    }
+    100%{
+        transform: rotate(-30deg);
+    }
+}
+.eyes1 {
+    position: absolute;
+    top: 35%;
+    display: flex;
+    gap: 30px;
+}
+
+.eye1 {
+    width: 10px;
+    height: 10px;
+    background-color: rgb(30, 20, 165);
+    border-radius: 50%;
+    animation: blink 1s infinite;
+}
+
+@keyframes blink{
+    0%, 90%{
+        transform: scaleY(1);
+    }
+    95%{
+        transform: scaleY(0.1);
+    }
+    100%{
+        transform: scaleY(1);
+    }
+}
+.mouth1 {
+    position: absolute;
+    top: 42%;
+    width: 12px;
+    height: 3px;
+    background-color: black;
+}
+
+.bandana1{
+    position: absolute;
+    top: 20%;
+    width: 70px;
+    height: 8px;
+    border: solid 3px #000;
+    border-color: #000 transparent;
+    background-color: white;
+    border-radius: 50%/100px 100px;
+
+}
+
+.arms1 {
+    position: absolute;
+    top: 50%;
+    width: 140px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.arm1 {
+    width: 15px;
+    height: 3px;
+    background-color: white;
+    transform: rotate(20deg);
+    border: 3px solid #81592e;
+    
+}
+
+
+.arm.right1 {
+    transform: rotate(-20deg);
+    border: 3px solid #81592e;
+    animation: alzar 3s infinite;
+    
+}
+@keyframes alzar{
+    0%,90%{
+        transform: rotate(-20deg);
+    }
+    95%{
+        transform: rotate(-50deg);
+    }
+    100%{
+        transform: rotate(-20deg);
+    }
+
+}
+.mancha11{
+    position: absolute;
+    top: 80%;
+    width: 20px;
+    height: 20px;
+    left: 10px;
+    background-color: #81592e;
+    border-radius: 30% 70%;
+}
+.mancha21{
+    position: absolute;
+    top: 70%;
+    width: 10px;
+    height: 10px;
+    left: 8px;
+    background-color: #81592e;
+    border-radius: 30% 70%;
+    transform: rotate(20deg);
+}
