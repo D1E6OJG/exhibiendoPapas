@@ -1,0 +1,238 @@
+body{
+    background-color: rgb(160, 67, 67);
+}
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #ca6c6c;
+}
+
+.potatoe-body1 {
+    background-color: #ca8b6b;
+    height: 70px;
+    width: 50px;
+    border-radius: 25px 25px 15px 30px;
+    border: 2px solid #1b1a1a;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 70%;
+    left: 60%;
+}
+
+.eyes1 {
+    position: absolute;
+    top: 15px;
+    left: 10px;
+    height: 10px;
+    width: 10px;
+    background-color: rgb(83, 29, 184);
+    animation: blink 1s infinite;
+    border-radius: 50%;
+}
+
+.eyes1::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 20px;
+    height: 10px;
+    width: 10px;
+    background-color: rgb(121, 14, 170);
+    animation: blink 1s infinite;
+    border-radius: 50%;
+}
+
+
+@keyframes blink{
+    0%, 90%{
+        transform: scaleY(1);
+    }
+    95%{
+        transform: scaleY(0.1);
+    }
+    100%{
+        transform: scaleY(1);
+    }
+    
+}
+.hands1 {
+    position: absolute;
+    top: 30px;
+    left: -25px;
+    height: 10px;
+    width: 20px;
+    background-color: #ca8b6b;
+    border: 2px solid #1b1a1a;
+    animation: move-arm 2s infinite;
+    border-radius: 20px;
+}
+
+.hands1::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 65px;
+    height: 10px;
+    width: 20px;
+    background-color: #ca8b6b;
+    border: 2px solid #1b1a1a;
+    animation: move-arm 2s infinite;
+    border-radius: 20px;
+}
+
+@keyframes move-arm {
+    0%, 50%, 100% {
+        transform: rotate(0deg);
+    }
+    25% {
+        transform: rotate(-20deg);
+    }
+    75% {
+        transform: rotate(0deg);
+    }
+
+}
+h1{
+    position: absolute;
+    top: 25%;
+    left: 45%;
+    color: aliceblue;
+}
+.banda1{
+    position: absolute;
+    top: 0%;
+    width: 50px;
+    height: 15px;
+    background-color: rgb(22, 22, 22);
+    border-radius: 50% 50% 0% 0%;
+}
+.boca1{
+    position: absolute;
+    top: 50%;
+    width: 15px;
+    height: 3px;
+    background-color: rgb(28, 28, 29);
+}
+
+.container1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #ca6c6c;
+}
+
+
+
+.potatoe-body {
+    background-color: #ca8b6b;
+    height: 100px;
+    width: 80px;
+    border-radius: 50px 50px 40px 60px;
+    border: 2px solid #1b1a1a;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 50%;
+    left: 50%;
+}
+
+.eyes {
+    position: absolute;
+    top: 30px;
+    left: 15px;
+    height: 10px;
+    width: 10px;
+    background-color: rgb(17, 16, 16);
+    animation: blink 1s infinite;
+    border-radius: 50%;
+}
+
+.eyes::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 30px;
+    height: 10px;
+    width: 10px;
+    background-color: rgb(12, 11, 11);
+    animation: blink 1s infinite;
+    border-radius: 50%;
+}
+@keyframes blink{
+    0%, 90%{
+        transform: scaleY(1);
+    }
+    95%{
+        transform: scaleY(0.1);
+    }
+    100%{
+        transform: scaleY(1);
+    }
+    
+}
+.hands {
+    position: absolute;
+    top: 50px;
+    left: -25px;
+    height: 10px;
+    width: 20px;
+    background-color: #ca8b6b;
+    border: 2px solid #1b1a1a;
+    animation: move-arm 2s infinite;
+    border-radius: 20px;
+}
+
+.hands::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 85px;
+    height: 10px;
+    width: 20px;
+    background-color: #ca8b6b;
+    border: 2px solid #1b1a1a;
+    animation: move-arm 2s infinite;
+    border-radius: 20px;
+}
+@keyframes move-arm {
+    0%, 50%, 100% {
+        transform: rotate(0deg);
+    }
+    25% {
+        transform: rotate(-20deg);
+    }
+    75% {
+        transform: rotate(0deg);
+    }
+
+}
+h1{
+    position: absolute;
+    top: 25%;
+    left: 45%;
+    color: aliceblue;
+}
+.banda{
+    position: absolute;
+    top: 0%;
+    width: 80px;
+    height: 30px;
+    background-color: rgb(33, 33, 34);
+    border-radius: 50% 50% 0% 0%;
+}
+.boca{
+    position: absolute;
+    top: 50%;
+    width: 15px;
+    height: 3px;
+    background-color: rgb(28, 28, 29);
+}
+
+
+
