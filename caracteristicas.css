@@ -1,0 +1,116 @@
+body{
+    background-color: rgb(41, 168, 25);
+}
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #ca6c6c;
+}
+
+.potatoe-body {
+    background-color: #ca8b6b;
+    height: 100px;
+    width: 80px;
+    border-radius: 50px 50px 40px 40px;
+    border: 2px solid #1b1a1a;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 50%;
+    left: 50%;
+}
+
+.eyes {
+    position: absolute;
+    top: 30px;
+    left: 15px;
+    height: 10px;
+    width: 10px;
+    background-color: rgb(17, 16, 16);
+    animation: blink 1s infinite;
+    border-radius: 50%;
+}
+
+.eyes::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 30px;
+    height: 10px;
+    width: 10px;
+    background-color: rgb(12, 11, 11);
+    animation: blink 1s infinite;
+    border-radius: 50%;
+}
+
+@keyframes blink {
+    0%, 90% {
+        transform: scaleY(1);
+    }
+    95% {
+        transform: scaleY(0.1);
+    }
+    100% {
+        transform: scaleY(1);
+    }
+}
+
+.hands {
+    position: absolute;
+    top: 50px;
+    left: -25px;
+    height: 10px;
+    width: 20px;
+    background-color: #ca8b6b;
+    border: 2px solid #1b1a1a;
+    animation: move-arms 2s infinite;
+    border-radius: 20px;
+}
+
+.hands::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 105px;
+    height: 10px;
+    width: 20px;
+    background-color: #ca8b6b;
+    border: 2px solid #1b1a1a;
+    animation: move-arms 2s infinite;
+    border-radius: 20px;
+}
+@keyframes move-arms{
+    0%{
+        transform: rotate(0);
+    }
+    95%{
+        transform: rotate(-20px);
+    }
+    100%{
+        transform: rotate(0);
+    }
+
+}
+h1{
+    position: absolute;
+    top: 25%;
+    left: 45%;
+    color: aliceblue;
+}
+.banda{
+    position: absolute;
+    top: 15%;
+    width: 80px;
+    height: 10px;
+    background-color: rgb(25, 108, 182);
+}
+.boca{
+    position: absolute;
+    top: 50%;
+    width: 30px;
+    height: 5px;
+    background-color: rgb(28, 28, 29);
+}
