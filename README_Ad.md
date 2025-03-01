@@ -1,1 +1,0 @@
-Adolfo Cortez Hernandez

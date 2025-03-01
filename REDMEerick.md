@@ -1,1 +1,0 @@
- Erick Kaleb Juarez Peralta

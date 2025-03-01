@@ -1,1 +1,0 @@
-# mi nombre es adolfo cortez hernandez 
